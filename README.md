@@ -15,7 +15,8 @@ to update the html form from a object
   notes: "This is just a note"
 }
 ```
-to get the customer name set the input name="customer.name" or if you want the notes set the input name="notes"
+to get the customer name set the input ```<input name="customer.name">``` or if you want the notes set the input
+```<input name="notes">```
 
 call 
 ```forms.get("formid"); ``` 
