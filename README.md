@@ -1,7 +1,7 @@
 # simple-js-form
 A simple js library to create html form that can be updated from a object.
 
-```
+```javascript
 var object = {
   customer: {
     name: "John",
