@@ -13,8 +13,7 @@ var object = {
 ```
 Use
 ```forms.update("formid", object);```
-to update the html form from a object. To show customer name you need to set the input name to ```<input name="customer.name">``` or if you want the notes set the input name to. Notice the dot notation in the first one.
-```<input name="notes">```
+to update the html form from a object. To show customer name you need to set the input name to ```<input name="customer.name">``` or if you want the notes set the input name to. ```<input name="notes">``` Notice the dot notation in the first one.
 
 Use 
 ```forms.get("formid", object); ``` 
