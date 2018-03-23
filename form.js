@@ -2,6 +2,7 @@ if(typeof window.forms === "undefined"){
 	window.forms = {};
 }
 forms.list = {};
+// Creates a new form to append in the document
 forms.create = function(options){
 	if(typeof options !== "object"){
 		options = {};
